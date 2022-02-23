@@ -1,0 +1,288 @@
+> search()
+[1] ".GlobalEnv"        "package:stats"     "package:graphics" 
+[4] "package:grDevices" "package:utils"     "package:datasets" 
+[7] "package:methods"   "Autoloads"         "package:base"     
+> installed.packages()
+             Package        LibPath                              Version  
+base         "base"         "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+boot         "boot"         "C:/Program Files/R/R-4.1.2/library" "1.3-28" 
+class        "class"        "C:/Program Files/R/R-4.1.2/library" "7.3-19" 
+cluster      "cluster"      "C:/Program Files/R/R-4.1.2/library" "2.1.2"  
+codetools    "codetools"    "C:/Program Files/R/R-4.1.2/library" "0.2-18" 
+compiler     "compiler"     "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+datasets     "datasets"     "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+foreign      "foreign"      "C:/Program Files/R/R-4.1.2/library" "0.8-81" 
+graphics     "graphics"     "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+grDevices    "grDevices"    "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+grid         "grid"         "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+KernSmooth   "KernSmooth"   "C:/Program Files/R/R-4.1.2/library" "2.23-20"
+lattice      "lattice"      "C:/Program Files/R/R-4.1.2/library" "0.20-45"
+MASS         "MASS"         "C:/Program Files/R/R-4.1.2/library" "7.3-54" 
+Matrix       "Matrix"       "C:/Program Files/R/R-4.1.2/library" "1.3-4"  
+methods      "methods"      "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+mgcv         "mgcv"         "C:/Program Files/R/R-4.1.2/library" "1.8-38" 
+nlme         "nlme"         "C:/Program Files/R/R-4.1.2/library" "3.1-153"
+nnet         "nnet"         "C:/Program Files/R/R-4.1.2/library" "7.3-16" 
+parallel     "parallel"     "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+rpart        "rpart"        "C:/Program Files/R/R-4.1.2/library" "4.1-15" 
+spatial      "spatial"      "C:/Program Files/R/R-4.1.2/library" "7.3-14" 
+splines      "splines"      "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+stats        "stats"        "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+stats4       "stats4"       "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+survival     "survival"     "C:/Program Files/R/R-4.1.2/library" "3.2-13" 
+tcltk        "tcltk"        "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+tools        "tools"        "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+translations "translations" "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+utils        "utils"        "C:/Program Files/R/R-4.1.2/library" "4.1.2"  
+             Priority      Depends                                          
+base         "base"        NA                                               
+boot         "recommended" "R (>= 3.0.0), graphics, stats"                  
+class        "recommended" "R (>= 3.0.0), stats, utils"                     
+cluster      "recommended" "R (>= 3.4.0)"                                   
+codetools    "recommended" "R (>= 2.1)"                                     
+compiler     "base"        NA                                               
+datasets     "base"        NA                                               
+foreign      "recommended" "R (>= 4.0.0)"                                   
+graphics     "base"        NA                                               
+grDevices    "base"        NA                                               
+grid         "base"        NA                                               
+KernSmooth   "recommended" "R (>= 2.5.0), stats"                            
+lattice      "recommended" "R (>= 3.0.0)"                                   
+MASS         "recommended" "R (>= 3.3.0), grDevices, graphics, stats, utils"
+Matrix       "recommended" "R (>= 3.5.0)"                                   
+methods      "base"        NA                                               
+mgcv         "recommended" "R (>= 3.6.0), nlme (>= 3.1-64)"                 
+nlme         "recommended" "R (>= 3.4.0)"                                   
+nnet         "recommended" "R (>= 3.0.0), stats, utils"                     
+parallel     "base"        NA                                               
+rpart        "recommended" "R (>= 2.15.0), graphics, stats, grDevices"      
+spatial      "recommended" "R (>= 3.0.0), graphics, stats, utils"           
+splines      "base"        NA                                               
+stats        "base"        NA                                               
+stats4       "base"        NA                                               
+survival     "recommended" "R (>= 3.5.0)"                                   
+tcltk        "base"        NA                                               
+tools        "base"        NA                                               
+translations NA            NA                                               
+utils        "base"        NA                                               
+             Imports                                            LinkingTo
+base         NA                                                 NA       
+boot         NA                                                 NA       
+class        "MASS"                                             NA       
+cluster      "graphics, grDevices, stats, utils"                NA       
+codetools    NA                                                 NA       
+compiler     NA                                                 NA       
+datasets     NA                                                 NA       
+foreign      "methods, utils, stats"                            NA       
+graphics     "grDevices"                                        NA       
+grDevices    NA                                                 NA       
+grid         "grDevices, utils"                                 NA       
+KernSmooth   NA                                                 NA       
+lattice      "grid, grDevices, graphics, stats, utils"          NA       
+MASS         "methods"                                          NA       
+Matrix       "methods, graphics, grid, stats, utils, lattice"   NA       
+methods      "utils, stats"                                     NA       
+mgcv         "methods, stats, graphics, Matrix, splines, utils" NA       
+nlme         "graphics, stats, utils, lattice"                  NA       
+nnet         NA                                                 NA       
+parallel     "tools, compiler"                                  NA       
+rpart        NA                                                 NA       
+spatial      NA                                                 NA       
+splines      "graphics, stats"                                  NA       
+stats        "utils, grDevices, graphics"                       NA       
+stats4       "graphics, methods, stats"                         NA       
+survival     "graphics, Matrix, methods, splines, stats, utils" NA       
+tcltk        "utils"                                            NA       
+tools        NA                                                 NA       
+translations NA                                                 NA       
+utils        NA                                                 NA       
+             Suggests                                    
+base         "methods"                                   
+boot         "MASS, survival"                            
+class        NA                                          
+cluster      "MASS, Matrix"                              
+codetools    NA                                          
+compiler     NA                                          
+datasets     NA                                          
+foreign      NA                                          
+graphics     NA                                          
+grDevices    "KernSmooth"                                
+grid         NA                                          
+KernSmooth   "MASS, carData"                             
+lattice      "KernSmooth, MASS, latticeExtra"            
+MASS         "lattice, nlme, nnet, survival"             
+Matrix       "expm, MASS"                                
+methods      "codetools"                                 
+mgcv         "parallel, survival, MASS"                  
+nlme         "Hmisc, MASS"                               
+nnet         "MASS"                                      
+parallel     "methods"                                   
+rpart        "survival"                                  
+spatial      "MASS"                                      
+splines      "Matrix, methods"                           
+stats        "MASS, Matrix, SuppDists, methods, stats4"  
+stats4       NA                                          
+survival     NA                                          
+tcltk        NA                                          
+tools        "codetools, methods, xml2, curl, commonmark"
+translations NA                                          
+utils        "methods, xml2, commonmark"                 
+             Enhances                                                             
+base         NA                                                                   
+boot         NA                                                                   
+class        NA                                                                   
+cluster      NA                                                                   
+codetools    NA                                                                   
+compiler     NA                                                                   
+datasets     NA                                                                   
+foreign      NA                                                                   
+graphics     NA                                                                   
+grDevices    NA                                                                   
+grid         NA                                                                   
+KernSmooth   NA                                                                   
+lattice      "chron"                                                              
+MASS         NA                                                                   
+Matrix       "MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,\nspdep"
+methods      NA                                                                   
+mgcv         NA                                                                   
+nlme         NA                                                                   
+nnet         NA                                                                   
+parallel     "snow, nws, Rmpi"                                                    
+rpart        NA                                                                   
+spatial      NA                                                                   
+splines      NA                                                                   
+stats        NA                                                                   
+stats4       NA                                                                   
+survival     NA                                                                   
+tcltk        NA                                                                   
+tools        NA                                                                   
+translations NA                                                                   
+utils        NA                                                                   
+             License                     License_is_FOSS License_restricts_use
+base         "Part of R 4.1.2"           NA              NA                   
+boot         "Unlimited"                 NA              NA                   
+class        "GPL-2 | GPL-3"             NA              NA                   
+cluster      "GPL (>= 2)"                NA              NA                   
+codetools    "GPL"                       NA              NA                   
+compiler     "Part of R 4.1.2"           NA              NA                   
+datasets     "Part of R 4.1.2"           NA              NA                   
+foreign      "GPL (>= 2)"                NA              NA                   
+graphics     "Part of R 4.1.2"           NA              NA                   
+grDevices    "Part of R 4.1.2"           NA              NA                   
+grid         "Part of R 4.1.2"           NA              NA                   
+KernSmooth   "Unlimited"                 NA              NA                   
+lattice      "GPL (>= 2)"                NA              NA                   
+MASS         "GPL-2 | GPL-3"             NA              NA                   
+Matrix       "GPL (>= 2) | file LICENCE" NA              NA                   
+methods      "Part of R 4.1.2"           NA              NA                   
+mgcv         "GPL (>= 2)"                NA              NA                   
+nlme         "GPL (>= 2) | file LICENCE" NA              NA                   
+nnet         "GPL-2 | GPL-3"             NA              NA                   
+parallel     "Part of R 4.1.2"           NA              NA                   
+rpart        "GPL-2 | GPL-3"             NA              NA                   
+spatial      "GPL-2 | GPL-3"             NA              NA                   
+splines      "Part of R 4.1.2"           NA              NA                   
+stats        "Part of R 4.1.2"           NA              NA                   
+stats4       "Part of R 4.1.2"           NA              NA                   
+survival     "LGPL (>= 2)"               NA              NA                   
+tcltk        "Part of R 4.1.2"           NA              NA                   
+tools        "Part of R 4.1.2"           NA              NA                   
+translations "Part of R 4.1.2"           NA              NA                   
+utils        "Part of R 4.1.2"           NA              NA                   
+             OS_type MD5sum NeedsCompilation Built  
+base         NA      NA     NA               "4.1.2"
+boot         NA      NA     "no"             "4.1.2"
+class        NA      NA     "yes"            "4.1.2"
+cluster      NA      NA     "yes"            "4.1.2"
+codetools    NA      NA     "no"             "4.1.2"
+compiler     NA      NA     NA               "4.1.2"
+datasets     NA      NA     NA               "4.1.2"
+foreign      NA      NA     "yes"            "4.1.2"
+graphics     NA      NA     "yes"            "4.1.2"
+grDevices    NA      NA     "yes"            "4.1.2"
+grid         NA      NA     "yes"            "4.1.2"
+KernSmooth   NA      NA     "yes"            "4.1.2"
+lattice      NA      NA     "yes"            "4.1.2"
+MASS         NA      NA     "yes"            "4.1.2"
+Matrix       NA      NA     "yes"            "4.1.2"
+methods      NA      NA     "yes"            "4.1.2"
+mgcv         NA      NA     "yes"            "4.1.2"
+nlme         NA      NA     "yes"            "4.1.2"
+nnet         NA      NA     "yes"            "4.1.2"
+parallel     NA      NA     "yes"            "4.1.2"
+rpart        NA      NA     "yes"            "4.1.2"
+spatial      NA      NA     "yes"            "4.1.2"
+splines      NA      NA     "yes"            "4.1.2"
+stats        NA      NA     "yes"            "4.1.2"
+stats4       NA      NA     NA               "4.1.2"
+survival     NA      NA     "yes"            "4.1.2"
+tcltk        NA      NA     "yes"            "4.1.2"
+tools        NA      NA     "yes"            "4.1.2"
+translations NA      NA     NA               "4.1.2"
+utils        NA      NA     "yes"            "4.1.2"
+> install.packaes("NLP")
+Error in install.packaes("NLP") : 
+  could not find function "install.packaes"
+> install.packages("NLP")
+Warning in install.packages("NLP") :
+  'lib = "C:/Program Files/R/R-4.1.2/library"' is not writable
+--- Please select a CRAN mirror for use in this session ---
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.1/NLP_0.2-1.zip'
+Content type 'application/zip' length 391631 bytes (382 KB)
+downloaded 382 KB
+
+package �NLP� successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\edi\AppData\Local\Temp\RtmpMxh72e\downloaded_packages
+> install.packages("tm")
+Installing package into �C:/Users/edi/Documents/R/win-library/4.1�
+(as �lib� is unspecified)
+also installing the dependencies �Rcpp�, �slam�, �xml2�, �BH�
+
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.1/Rcpp_1.0.8.zip'
+Content type 'application/zip' length 3318152 bytes (3.2 MB)
+downloaded 3.2 MB
+
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.1/slam_0.1-50.zip'
+Content type 'application/zip' length 211774 bytes (206 KB)
+downloaded 206 KB
+
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.1/xml2_1.3.3.zip'
+Content type 'application/zip' length 2912200 bytes (2.8 MB)
+downloaded 2.8 MB
+
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.1/BH_1.78.0-0.zip'
+Content type 'application/zip' length 20390200 bytes (19.4 MB)
+downloaded 19.4 MB
+
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.1/tm_0.7-8.zip'
+Content type 'application/zip' length 1531399 bytes (1.5 MB)
+downloaded 1.5 MB
+
+package �Rcpp� successfully unpacked and MD5 sums checked
+package �slam� successfully unpacked and MD5 sums checked
+package �xml2� successfully unpacked and MD5 sums checked
+package �BH� successfully unpacked and MD5 sums checked
+package �tm� successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\edi\AppData\Local\Temp\RtmpMxh72e\downloaded_packages
+> library(NLP)
+> require(tm)
+Loading required package: tm
+> search()
+ [1] ".GlobalEnv"        "package:tm"        "package:NLP"       "package:stats"     "package:graphics"  "package:grDevices" "package:utils"     "package:datasets" 
+ [9] "package:methods"   "Autoloads"         "package:base"     
+> detach(package:tm)
+> search()
+ [1] ".GlobalEnv"        "package:NLP"       "package:stats"     "package:graphics"  "package:grDevices" "package:utils"     "package:datasets"  "package:methods"  
+ [9] "Autoloads"         "package:base"     
+> library(help=tm)
+> help(tm)
+No documentation for �tm� in specified packages and libraries:
+you could try �??tm�
+> help(base)
+starting httpd help server ... done
+> ?utils
+> 
