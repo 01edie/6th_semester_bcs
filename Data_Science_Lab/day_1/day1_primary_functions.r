@@ -1,0 +1,13 @@
+search()
+installed.packages()
+install.packages("NLP")
+install.packages("tm")
+library(NLP)
+require(tm)
+search()
+detach(package:tm)
+search()
+library(help=tm)
+help(tm)
+help(base)
+?utils
