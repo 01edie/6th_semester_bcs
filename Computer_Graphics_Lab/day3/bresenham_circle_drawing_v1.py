@@ -13,9 +13,7 @@ while(x<y):
         
         d = d+(4*x)+6
         x=x+1
-        
     else:
-              
         d = d+(4*(x-y))+10
         x=x+1
         y=y-1
@@ -39,6 +37,10 @@ while(x<y):
     
     
 plt.plot(a,b,'b.')
+# here just points has been plotted , not joined
+
+
+
 # plt.plot(x+m,y+n)
 # plt.plot(y+m,x+n)
 # plt.plot(-y+m,x+n)
