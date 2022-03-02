@@ -60,14 +60,14 @@ while(x<y):
     hx.append(x+m)
     hy.append(-y+n)
     
-plt.plot(ax,ay);
-plt.plot(bx,by);
-plt.plot(cx,cy);
-plt.plot(dx,dy);
-plt.plot(ex,ey);
-plt.plot(fx,fy);
-plt.plot(gx,gy);
-plt.plot(hx,hy);
+plt.plot(ax,ay)
+plt.plot(bx,by)
+plt.plot(cx,cy)
+plt.plot(dx,dy)
+plt.plot(ex,ey)
+plt.plot(fx,fy)
+plt.plot(gx,gy)
+plt.plot(hx,hy)
 
 # here for 8 points, 8parts' points are stored in 8 arrays sorted one after another
 # and then 8 parts points are joined separately
