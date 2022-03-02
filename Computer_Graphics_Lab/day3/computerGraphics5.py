@@ -19,35 +19,26 @@ while(x<y):
         d = d+(4*(x-y))+10
         x=x+1
         y=y-1
-    a.insert(i,x+m)
-    b.insert(i,y+n)
-    i=i+1
-    a.insert(i,y+m)
-    b.insert(i,x+n)
-    i=i+1
-    a.insert(i,-y+m)
-    b.insert(i,x+n)
-    i=i+1
-    a.insert(i,-x+m)
-    b.insert(i,y+n)
-    i=i+1
-    a.insert(i,-x+m)
-    b.insert(i,-y+n)
-    i=i+1
-    a.insert(i,-y+m)
-    b.insert(i,-x+n)
-    i=i+1
-    a.insert(i,y+m)
-    b.insert(i,-x+n)
-    i=i+1
-    a.insert(i,x+m)
-    b.insert(i,-y+n)
-    i=i+1
-    print(x)
-    print(y)
+    a.append(x+m)
+    b.append(y+n)
+    a.append(y+m)
+    b.append(x+n)
+    a.append(-y+m)
+    b.append(x+n)
+    a.append(-x+m)
+    b.append(y+n)
+    a.append(-x+m)
+    b.append(-y+n)
+    a.append(-y+m)
+    b.append(-x+n)
+    a.append(y+m)
+    b.append(-x+n)
+    a.append(x+m)
+    b.append(-y+n)
     
     
-plt.plot(a,b)
+    
+plt.plot(a,b,'b.')
 # plt.plot(x+m,y+n)
 # plt.plot(y+m,x+n)
 # plt.plot(-y+m,x+n)
