@@ -68,7 +68,7 @@ plt.plot(ex,ey)
 plt.plot(fx,fy)
 plt.plot(gx,gy)
 plt.plot(hx,hy)
-
+# plt.plot(hx,hy,marker = 'o', markerfacecolor = 'r')
 # here for 8 points, 8parts' points are stored in 8 arrays sorted one after another
 # and then 8 parts points are joined separately
     
