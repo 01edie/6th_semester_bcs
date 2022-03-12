@@ -52,7 +52,7 @@ while(x<y):
     ey.append(-y+yc)
     
     fx.append(-y+xc)
-    fy.append(-x+n)
+    fy.append(-x+yc)
     
     gx.append(y+xc)
     gy.append(-x+yc)
