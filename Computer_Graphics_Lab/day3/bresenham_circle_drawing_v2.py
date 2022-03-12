@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 r=100
 x=0
 y=r
-m=50
-n=50
+xc=50
+yc=50
 ax=[]
 bx=[]
 cx=[]
@@ -36,29 +36,29 @@ while(x<y):
         d = d+(4*(x-y))+10
         x=x+1
         y=y-1
-    ax.append(x+m)
-    ay.append(y+n)
+    ax.append(x+xc)
+    ay.append(y+yc)
     
-    bx.append(y+m)
-    by.append(x+n)
+    bx.append(y+xc)
+    by.append(x+yc)
     
-    cx.append(-y+m)
-    cy.append(x+n)
+    cx.append(-y+xc)
+    cy.append(x+yc)
     
-    dx.append(-x+m)
-    dy.append(y+n)
+    dx.append(-x+xc)
+    dy.append(y+yc)
     
-    ex.append(-x+m)
-    ey.append(-y+n)
+    ex.append(-x+xc)
+    ey.append(-y+yc)
     
-    fx.append(-y+m)
+    fx.append(-y+xc)
     fy.append(-x+n)
     
-    gx.append(y+m)
-    gy.append(-x+n)
+    gx.append(y+xc)
+    gy.append(-x+yc)
     
-    hx.append(x+m)
-    hy.append(-y+n)
+    hx.append(x+xc)
+    hy.append(-y+yc)
     
 plt.plot(ax,ay)
 plt.plot(bx,by)
