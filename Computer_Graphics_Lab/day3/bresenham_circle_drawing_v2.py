@@ -60,14 +60,15 @@ while(x<y):
     hx.append(x+xc)
     hy.append(-y+yc)
     
-plt.plot(ax,ay)
-plt.plot(bx,by)
-plt.plot(cx,cy)
-plt.plot(dx,dy)
-plt.plot(ex,ey)
-plt.plot(fx,fy)
-plt.plot(gx,gy)
-plt.plot(hx,hy)
+plt.plot(ax,ay,linewidth=3)
+plt.plot(bx,by,linewidth=3)
+plt.plot(cx,cy,linewidth=3)
+plt.plot(dx,dy,linewidth=3)
+plt.plot(ex,ey,linewidth=3)
+plt.plot(fx,fy,linewidth=3)
+plt.plot(gx,gy,linewidth=3)
+plt.plot(hx,hy,linewidth=3)
+plt.title('Bresenham Circle Drawing')
 # plt.plot(hx,hy,marker = 'o', markerfacecolor = 'r')
 # here for 8 points, 8parts' points are stored in 8 arrays sorted one after another
 # and then 8 parts points are joined separately
