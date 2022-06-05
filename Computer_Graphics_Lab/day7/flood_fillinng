@@ -1,0 +1,33 @@
+from PIL import Image
+
+# creating a image object
+im = Image.open(r"download.png")
+
+# coordinate = x, y = 92, 296
+# coordinate = x, y = 48, 148
+coordinate = x, y = 322, 145
+for i in range(109,149):
+    im.putpixel((i,100),(0,0,0))
+    im.putpixel((i,140),(0,0,0))
+for i in range(100,141):
+    im.putpixel((109,i),(0,0,0))
+    im.putpixel((149,i),(0,0,0))
+def func_fill(x,y,fill_color,old_color):
+    coord=x,y
+
+    c=im.getpixel(coord)
+    #c = im.getpixel(coord)
+    #print(c)
+    if(c==old_color):
+      return 1
+    elif(c==fill_color):
+      return 1
+    else:
+      im.putpixel((x,y),fill_color)
+      func_fill(x+1,y,fill_color,old_color)
+      func_fill(x-1,y,fill_color,old_color)
+      func_fill(x,y+1,fill_color,old_color)
+      func_fill(x,y-1,fill_color,old_color)
+func_fill(120,120,(195, 152, 198,255),(0, 0, 0,255))
+im.save('ab.png')
+#(31, 119, 180, 255)
