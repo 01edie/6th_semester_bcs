@@ -10,4 +10,8 @@ day5- Translation, Scaling
 
 day6- rotation, reflection
 
+day7- filling algorithm(flood fill)
+
+day8- drawing(house)
+
 tmp- filling algorithms(boundary fill, flood fill)
